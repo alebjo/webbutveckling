@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.länk{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #EAEBED;  
+    text-decoration: none;
+}
+
+.bt{
+    font-family: "Archivo", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #EAEBED;
+}
+
+#main{
+    background-image: url("../bilder/bakgrund_liten.png");
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#logga{
+    width: 10%;
+}
+
+.bg-navi {
+    background-color: #3066BE;
+}
+
+#info{
+    display: flex;
+    width: 50ch;
+    height: 100%;
+}
+
+.punkt{
+    display: none;    
+}
+
+#loggotyp{
+    width: 250px;
+}
+
+.footer{
+    background-color: #28242c;
+    color: white;
+}
+
+@media only screen and (min-width:768px){
+    #main{
+        background-image: url("../bilder/bakgrund_medium.png");
+        background-size: cover;
+        background-position: 50%;
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+}
+
+@media only screen and (min-width:1201px){
+    #main{
+        background-image: url("../bilder/bakgrund_192x1080.jpg");
+        background-size: cover;
+        background-position: 50%;
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    #info{
+        display: flex;
+        width: 30vw;
+        align-items: end;
+    }
+    
+    .punkt{
+        display: block;    
+        }
+
+    #loggotyp{
+        width: auto;
+        margin-right: 0;
+        position: fixed;
+    }
+
+    #mynavbar{
+        margin-left: 9vw;
+        z-index: 2;
+    }
+
+    .nav-länk {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    #logga{
+        width: 50%;
+    }
+
+    #nav-bitar{
+        text-align: center;
+    }
+}
+
+
+
